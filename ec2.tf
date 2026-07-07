@@ -9,7 +9,7 @@ resource "aws_instance" "roboshop" {
 
 
 resource "aws_security_group" "allow_all_ports" {
-    name = "allow-all"
+    name = "allow-all-names"
     description = "allowing all traffic"
 
     egress {
